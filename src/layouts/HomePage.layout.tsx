@@ -23,7 +23,7 @@ const HomePage: FC<any> = () => {
       <div className="flex flex-col w-screen h-screen text-5xl lg:flex-row">
         <Link href={"/dev"}>
           <div className="flex items-center justify-center w-full h-full cursor-pointer group text-cyber-mint-500 bg-cyber-black-500">
-            <div className="p-4 font-mono transition-all duration-75 ease-in-out border border-transparent group-hover:border-cyber-mint-500">
+            <div className="p-4 font-mono transition-all duration-150 ease-in-out border border-transparent group-hover:border-cyber-mint-500">
               {data?.dev.title}
             </div>
           </div>
