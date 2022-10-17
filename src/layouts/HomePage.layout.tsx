@@ -29,10 +29,10 @@ const HomePage: FC<any> = () => {
           </div>
         </Link>
         <Link href={"/creative"}>
-          <div className="flex items-center justify-center w-full h-full cursor-pointer group bg-ego-corn-silk-500 text-ego-moss-green-900">
-            <div className="font-serif">
+          <div className="flex items-center justify-center w-full h-full cursor-pointer group bg-ego-corn-silk-500 text-ego-moss-green-500">
+            <div className="font-serif drop-shadow">
               {data?.creative.title}
-              <div className="w-0 h-1 transition-all duration-75 ease-in rounded-full group-hover:w-full bg-ego-moss-green-900" />
+              <div className="w-0 h-1 transition-all duration-75 ease-in rounded-full shadow group-hover:w-full bg-ego-moss-green-500" />
             </div>
           </div>
         </Link>
