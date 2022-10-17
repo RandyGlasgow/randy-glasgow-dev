@@ -14,7 +14,9 @@ interface HomePageProps {
 }
 
 const HomePage: FC<any> = () => {
-  const { data } = useQuery<HomePageProps>(["home"]);
+  const { data } = useQuery<HomePageProps>(["home"], {
+    enabled: false,
+  });
 
   return (
     <DefaultPageFrame>

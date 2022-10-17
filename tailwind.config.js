@@ -13,7 +13,7 @@ module.exports = {
         "ego-corn-silk-500": "#fefae0",
         "ego-sahara-brown-500": "#dda15e",
         "ego-sahara-brown-900": "#bc6c25",
-        "cyber-black-500": "#01000d",
+        "cyber-black-500": "#242424",
         "cyber-mint-500": "#05F2AF",
         "cyber-electric-yellow-500": "#F2E205",
         "cyber-electric-blue-500": "#609AD9",
